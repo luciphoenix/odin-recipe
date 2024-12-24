@@ -14,6 +14,13 @@ body{
 }
 .header {
     margin-bottom: 30px;
+    background-color: #e7dfd5cb;
+    border-radius: 10px ;
+}
+
+.description .text{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
 }
 
 h1{
@@ -23,6 +30,7 @@ h1{
 img{
     max-width:30%;
     height: auto;
+    border-radius: 10px 0 0 10px;
     /* inline-block */
     display: inline-block; 
     vertical-align:middle;
