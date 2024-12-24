@@ -10,25 +10,31 @@
 
 body{
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px auto;
+}
+.header {
+    margin-bottom: 30px;
 }
 
+h1{
+    text-align: center;
+}
 /* Using inline-block for positioning the image and the description */
 img{
-    max-width:20%;
+    max-width:30%;
     height: auto;
     /* inline-block */
-    display: inline-block;
+    display: inline-block; 
     vertical-align:middle;
 }
 
 .description{
-    margin-left: 10px;
+    margin-left: 20px;
     text-align: justify;
 
-    
+
     /* inline-block */
-    width: 500px;  
+    width: 60%;  
     vertical-align:middle;
     display: inline-block;
 }
